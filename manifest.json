@@ -1,6 +1,6 @@
 {
-  "name": "Windows 95",
-  "short_name": "W95 PWA",
+  "name": "Vintage 64",
+  "short_name": "W95 VNTG64",
   "display": "standalone",
   "orientation":"portrait",
   "start_url": "./",

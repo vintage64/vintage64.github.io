@@ -32,21 +32,6 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-
-        <script>
-            if ('serviceWorker' in navigator) {
-                // Register a service worker hosted at the root of the
-                // site using a more restrictive scope.
-                navigator.serviceWorker.register('./sw.js', {scope: './'}).then(function(registration) {
-                    console.log('Service worker registration succeeded:', registration);
-                }, /*catch*/ function(error) {
-                    console.log('Service worker registration failed:', error);
-                });
-            } else {
-                console.log('Service workers are not supported.');
-            }	
-
-        </script>
     </head>
     <body>
 
@@ -309,7 +294,7 @@
         <!-- LINKS & DOWNLOADS // DISABLED -->
 
 
-        <div class='fenetrecp2' id='showtwo'>
+        <!-- <div class='fenetrecp2' id='showtwo'>
             <div class='inner'>
                 <header class='bar'>
                     <h1><img class="enhaut" src="images/scrnsave_100.ico" alt="screen-icon">C:\Windows\system32\cmd.exe</h1>
@@ -331,7 +316,7 @@
                 </div>
                 <input type="button" name="answer" value="Show previous Releases >" onclick="showoneDiv()" id="show_more" class="boutonnn"/>
             </div>
-        </div>
+        </div> -->
 
 
         <!-- WINDOWS BAR -->
